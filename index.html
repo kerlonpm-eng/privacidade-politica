@@ -1,37 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacidade Política</title>
+    <title>Política de Privacidade - RxPython</title>
 </head>
 <body>
-    <header>
-        <h1>Política de Privacidade</h1>
-    </header>
-    <main>
-        <section>
-            <h2>Informações que Coletamos</h2>
-            <p>Coletamos informações pessoais para fornecer a melhor experiência possível aos nossos usuários.</p>
-            <p>Essas informações podem incluir, mas não estão limitadas a, nome, endereço de e-mail, e preferências de contato.</p>
-        </section>
-        <section>
-            <h2>Uso das Informações</h2>
-            <p>As informações coletadas são utilizadas para:</p>
-            <ul>
-                <li>Melhorar nossos serviços e funcionalidades.</li>
-                <li>Comunicar-se com os usuários sobre novidades e atualizações.</li>
-            </ul>
-            <p>Todos os dados pessoais são tratados com a máxima segurança e nunca serão vendidos a terceiros.</p>
-        </section>
-        <section>
-            <h2>Direitos dos Usuários</h2>
-            <p>Os usuários têm o direito de acessar, corrigir ou excluir suas informações pessoais a qualquer momento.</p>
-            <p>Se você deseja exercer algum desses direitos, entre em contato conosco através do e-mail fornecido em nosso site.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2026 kerlonpm-eng. Todos os direitos reservados.</p>
-    </footer>
+    <h1>📜 Política de Privacidade - RxPython</h1>
+
+    <h2>Dados que Coletamos</h2>
+    <p>A RxPython processa as mensagens enviadas em canais onde ele tem permissão de leitura. Para o funcionamento da IA, armazenamos temporariamente:</p>
+    <ul>
+        <li><strong>Conteúdo das mensagens:</strong> Apenas para gerar a resposta da IA.</li>
+        <li><strong>IDs de Usuário e Servidor:</strong> Para o sistema de memória compartilhada funcionar e o bot saber com quem está falando.</li>
+    </ul>
+
+    <h2>Como Usamos os Dados</h2>
+    <p>Os dados são usados exclusivamente para:</p>
+    <ul>
+        <li>Responder comandos e interagir via chat.</li>
+        <li>Manter o contexto da conversa (Memória).</li>
+        <li>Melhorar as funcionalidades do bot.</li>
+    </ul>
+    <p>Não vendemos ou compartilhamos dados de usuários para fins publicitários.</p>
+
+    <h2>Provedores de Terceiros</h2>
+    <p>As mensagens enviadas ao bot são processadas através da API do Groq (ou outros provedores configurados). Esses provedores possuem suas próprias políticas de privacidade sobre como processam dados de API.</p>
+
+    <h2>Armazenamento e Exclusão</h2>
+    <p>As informações de memória são vinculadas ao seu ID de usuário/servidor. Caso deseje que seus dados de memória sejam apagados, basta usar o comando <code>!clear_memory</code>.</p>
+    <p>Alem de tambem a memoria compatilhada dura so 2 dias (ela e conectada ao canal em si nao ao servidor), e a memoria de conversas com o usuario pode durar ate 30 dias, caso seja solicitado a algum adm do bot a memoria pode ser excluida.</p>
+
 </body>
 </html>
